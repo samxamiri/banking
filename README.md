@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💳 Financial Dashboard Application
 
-## Getting Started
+A modern financial dashboard built with cutting-edge technologies, offering secure bank integration, seamless transactions, and real-time updates.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚙️ Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**
+- **TypeScript**
+- **Appwrite**
+- **Plaid**
+- **Dwolla**
+- **React Hook Form**
+- **Zod**
+- **TailwindCSS**
+- **Chart.js**
+- **ShadCN**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔋 Features
 
-## Learn More
+### 👉 **Authentication**
+An ultra-secure SSR authentication system with robust validations and proper authorization mechanisms.
 
-To learn more about Next.js, take a look at the following resources:
+### 👉 **Connect Banks**
+Integrates with **Plaid** to allow users to securely link multiple bank accounts.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 👉 **Home Page**
+Provides a general overview of the user's financial status, including:
+- Total balance across all connected banks.
+- Recent transactions.
+- Spending breakdown by categories.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 👉 **My Banks**
+Displays a comprehensive list of all connected banks with:
+- Respective balances.
+- Detailed account information.
 
-## Deploy on Vercel
+### 👉 **Transaction History**
+Includes:
+- Pagination for easier navigation.
+- Filtering options for viewing transaction history across different banks.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 👉 **Real-time Updates**
+Automatically reflects changes across all relevant pages upon connecting new bank accounts or updating existing ones.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 👉 **Funds Transfer**
+Empowers users to transfer funds via **Dwolla** to other accounts, requiring necessary details like recipient bank ID and amount.
+
+### 👉 **Responsiveness**
+Designed to provide a seamless user experience across various devices, ensuring consistency on desktops, tablets, and mobile platforms.
